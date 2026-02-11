@@ -86,20 +86,20 @@ FRAMES = [
         "feedback_incorrect": "Text data is called a string."
     },
     
-    # Frame 5: String syntax
+    # Frame 5: Oregon Capital
     {
-        "prompt": "Strings must be surrounded by _____ or double quotes.",
-        "answer": "single",
-        "feedback_correct": "Correct! Both 'hello' and \"hello\" are valid strings.",
-        "feedback_incorrect": "Strings use single quotes or double quotes: 'hello' or \"hello\""
+        "prompt": "The capital of Oregon is ______.",
+        "answer": "Salem",
+        "feedback_correct": "Correct! Both 'Salem' is the capital or Oregon.",
+        "feedback_incorrect": "Incorrect, Salem is the capital of Oregon"
     },
     
-    # Frame 6: Naming conventions
+    # Frame 6: What is Salem the of? 
     {
-        "prompt": "Variable names in Python cannot start with a _____.",
-        "answer": "number",
-        "feedback_correct": "Right! Variables can't start with numbers. 'var1' is ok, '1var' is not.",
-        "feedback_incorrect": "Variable names cannot start with a number."
+        "prompt": "Of what state is Salem the capital?",
+        "answer": "oregon",
+        "feedback_correct": "Right! Salem is the capital of Oregon",
+        "feedback_incorrect": "Incorrect, Salem is the capital of Oregon"
     },
     
     # Frame 7: Case sensitivity
