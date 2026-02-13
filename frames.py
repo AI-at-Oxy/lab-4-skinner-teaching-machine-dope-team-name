@@ -54,20 +54,20 @@ Choose a structure and be CONSISTENT across all your frames!
 # =============================================================================
 
 FRAMES = [
-    # Frame 1: Introduction
+    # Frame 1: Capital of Washington
     {
-        "prompt": "In Python, we store data in _____. (Hint: they can vary!)",
-        "answer": "variables",
-        "feedback_correct": "Correct! Variables are containers for storing data.",
-        "feedback_incorrect": "Not quite. We store data in variables."
+        "prompt": "What is the capital of Washington? (Hint: It's not Seattle!)",
+        "answer": "olympia",
+        "feedback_correct": "Correct! Olympia is the capital of Washington.",
+        "feedback_incorrect": "Sorry, that was incorrect. It's Olympia."
     },
     
-    # Frame 2: Assignment operator
+    # Frame 2: SuperSonics Trivia
     {
-        "prompt": "To assign a value to a variable, we use the _____ sign.",
-        "answer": "=",
-        "feedback_correct": "Yes! The = sign is the assignment operator.",
-        "feedback_incorrect": "Not quite. We use the = (equals) sign."
+        "prompt": "When was the Seattle SuperSonics last season?",
+        "answer": "2008",
+        "feedback_correct": "Yes! It was 2008 (Then OKC stole the team >:( )",
+        "feedback_incorrect": "Incorrect. It was 2008."
     },
     
     # Frame 3: Simple assignment
